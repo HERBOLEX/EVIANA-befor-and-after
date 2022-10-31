@@ -35,7 +35,7 @@ $("#orderform").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbwv_nqRqmJxmvxlnX1M4WpC60TRHU4ys0ZDyslo1ZBzLJ-KzOEjpe0hVo7Xr5zW1VbY/exec",
+        url: "https://www.lescommandes.xyz/go/?order=S3TkHzEdtyqrGeFUvDhvjSsuvMtPGW",
         type: "post",
         data: serializedData
     });
